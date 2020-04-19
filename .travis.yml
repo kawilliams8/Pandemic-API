@@ -1,10 +1,10 @@
 language: node_js
 env:
   global:
-    - CC_TEST_REPORTER_ID=d53d99575f8bc173c8796d21dce85a61248248201d74f752874bba9c1c76ae89
+    - CC_TEST_REPORTER_ID=a6c435d0dd0bf6358a6926ce013889eaf3959c8bd5a1cfac531745865e11c98f
 matrix:
   include:
-  - node_js: '13.13.0'
+  - node_js: ''
 cache:
   directories: [node_modules]
 install:
