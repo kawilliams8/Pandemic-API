@@ -2,9 +2,9 @@
 /**
  * Module dependencies.
  */
-import debug from "debug";
-import http from "http";
-import app from "../app";
+import debug from 'debug';
+import http from 'http';
+import app from '../app';
 /**
  * Normalize a port into a number, string, or false.
  */
@@ -24,8 +24,8 @@ const normalizePort = (val) => {
 /**
  * Get port from environment and store in Express.
  */
-const port = normalizePort(process.env.PORT || "3000");
-app.set("port", port);
+const port = normalizePort(process.env.PORT || '3000');
+app.set('port', port);
 
 /**
  * Create HTTP server.
@@ -35,7 +35,7 @@ const server = http.createServer(app);
 /**
  * Event listener for HTTP server "error" event.
  */
-const onError = error => {
+const onError = (error) => {
   if (error.syscall !== 'listen') {
     throw error;
   }
@@ -69,4 +69,3 @@ const onListening = () => {
 server.listen(port);
 server.on('error', onError);
 server.on('listening', onListening);
-
