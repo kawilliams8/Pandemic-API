@@ -4,3 +4,4 @@
 [![Coverage Status](https://coveralls.io/repos/github/kawilliams8/Pandemic-API/badge.svg?branch=master)](https://coveralls.io/github/kawilliams8/Pandemic-API?branch=master)
 [![Maintainability](https://api.codeclimate.com/v1/badges/f971ec67bdc908492c2e/maintainability)](https://codeclimate.com/github/kawilliams8/Pandemic-API/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/f971ec67bdc908492c2e/test_coverage)](https://codeclimate.com/github/kawilliams8/Pandemic-API/test_coverage)
+[![Build status](https://ci.appveyor.com/api/projects/status/ygh1cr34vmq95akj/branch/master?svg=true)](https://ci.appveyor.com/project/kawilliams8/pandemic-api/branch/master)
