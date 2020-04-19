@@ -1,10 +1,3 @@
-import express from 'express';
-import { indexPage } from '../controllers';
-import { aboutPage } from '../controllers';
-
-const indexRouter = express.Router();
-
-indexRouter.get('/', indexPage);
-indexRouter.get('/about', aboutPage);
-
-export default indexRouter;
+export * from './home';
+export * from './messages';
+export * from './about';
