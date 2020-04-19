@@ -1,0 +1,25 @@
+{
+  "name": "express-api",
+  "version": "1.0.0",
+  "description": "A quarantine project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/kawilliams8/express-api.git"
+  },
+  "keywords": [
+    "quarantine",
+    "express",
+    "api",
+    "PostgreSQL"
+  ],
+  "author": "Katherine Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/kawilliams8/express-api/issues"
+  },
+  "homepage": "https://gitlab.com/kawilliams8/express-api#readme"
+}
